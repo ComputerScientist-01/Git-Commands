@@ -117,6 +117,7 @@
 ```
 ### ✏️ git push
     Sends local commits to the remote repository. git push requires two parameters: the remote repository and the branch that the push is for.
+   
 
 ### 📝Command line
 ```bash
@@ -124,4 +125,10 @@
 
    # Push all local branches to remote repository
    $ git push —all
+```
+### ✏️ Merge pull request
+```
+    $ git fetch origin
+    $ git checkout -b signup origin/signup
+    $ git merge main
 ```
